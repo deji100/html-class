@@ -1,0 +1,23 @@
+table {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+#size {
+    width: 50%;
+}
+
+tbody tr:nth-child(odd) {
+    background: green;
+    color: white;
+}
+
+ul {
+    list-style-type: georgian;
+}

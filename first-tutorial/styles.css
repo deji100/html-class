@@ -1,0 +1,25 @@
+#color {
+    color: blue;
+}
+
+#but1 {
+    background: orange;
+}
+
+#but2 {
+    background: red;
+    color: white;
+}
+
+#but3 {
+    background: green;
+    color: white;
+}
+
+#but4 {
+    background: yellow;
+}
+
+.but:hover {
+    transform: scale(1.1);
+}
