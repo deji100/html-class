@@ -48,7 +48,7 @@ nav #logo {
     width: 150px;
     height: 40px;
     border-radius: 30px;
-    border: .5px solid black;
+    /* border: .5px solid black; */
     background: rgba(140, 219, 13, 0.918);
     display: flex;
     justify-content: space-around;
@@ -133,7 +133,163 @@ hr {
     color: rgba(150, 235, 15, 0.966);
 }
 
+#features ul li {
+    display: flex;
+}
+
 #features ul li div {
     font-size: 15px;
+    margin-left: 5px;
+}
+
+#features ul li div p {
+    color: gray;
+}
+
+#features ul li div .uni {
+    color: black;
+}
+
+#detail {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background: black;
+    padding: 20px;
+    color: white;
+}
+
+#detail p {
+    margin: 10px;
+}
+
+#detail div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#detail div #shirt-img #img {
+    margin: auto;
+    margin-top: -5px;
+    width: 80%;
+}
+
+#detail div #shirt-img #img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+#detail div #shirt-img p {
+    color: black;
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#detail div #shirt-img .but {
+    width: 80%;
+    margin: auto;
+}
+
+#detail div #shirt-img .but #buy {
+    color: black;
+    border: .5px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#detail div #shirt-img .but #view {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: .5px solid black;
+    background: rgba(140, 219, 13, 0.918);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#detail div #shirt-img .but #view #gt {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    color: rgba(150, 235, 15, 0.966);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shirt-img, #shirt-detail {
+    width: 45%;
+    height: auto;
+    position: relative;
+    display:  flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: white;
+    padding: 15px;
+}
+
+#detail div #shirt-detail div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#detail div #shirt-detail div p {
+    color: black;
+}
+
+#detail div #shirt-detail div #d {
+    width: 93%;
+    position: absolute;
+    left: 10px;
+    
+}
+
+#detail div #shirt-detail #d-but {
+    width: 93%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#detail div #shirt-detail #d-but button {
+    width: 120px;
+    padding: 5px;
+    border: .5px solid black;
+    border-radius: 30px;
+    background: white;
+}
+
+#detail div #shirt-detail #d-but #more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(150, 235, 15, 0.966);
+}
+
+#detail div #shirt-detail #d-but #d-gt {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    color: rgba(150, 235, 15, 0.966);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
