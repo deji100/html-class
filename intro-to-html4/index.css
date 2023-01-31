@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 90%;      
+    height: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+nav #logo {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#nav-links-button {
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links {
+    width: 50%;
+    position: relative;
+    left: 35px;
+}
+
+#nav-links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-links ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-links-button button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: .5px solid black;
+    background: rgba(140, 219, 13, 0.918);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+#nav-links-button button #great {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    color: rgba(150, 235, 15, 0.966);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-links-button #social-links {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-links-button #social-links a {
+    color: black;
+}
+
+header {
+    width: 60%;
+    border-radius: 30px;
+    padding: 20px;
+    height: 300px;
+    background: rgba(150, 235, 15, 0.966);
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header #shirt-design {
+    font-size: 50px;
+    margin: 15px;
+}
+
+header button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    border: .5px solid white;
+}
+
+header a {
+    color: black;
+    margin: 15px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#features #feat {
+    margin: 20px;
+    position: relative;
+    left:200px;
+}
+
+#features ul {
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: rgba(150, 235, 15, 0.966);
+}
+
+#features ul li div {
+    font-size: 15px;
+}
+
